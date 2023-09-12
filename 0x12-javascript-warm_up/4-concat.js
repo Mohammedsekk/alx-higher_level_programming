@@ -1,3 +1,4 @@
 #!/usr/bin/node
+const numArgs = process.argv;
 
-console.log(`${process.argv[2]} is ${process.argv[3]}`);
+console.log(`${numArgs[2]} is ${numArgs[3]}`);

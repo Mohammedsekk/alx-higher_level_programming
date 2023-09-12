@@ -1,6 +1,7 @@
 #!/usr/bin/node
+const langs = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+let lang;
 
-const complements = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-for (const complement of complements) {
-  console.log(complement);
+for (lang of langs) {
+  console.log(lang);
 }
