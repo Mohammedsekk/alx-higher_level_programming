@@ -1,3 +1,3 @@
 #!/bin/bash
-#send a bash script to a URL and display the body of the response
-curl -sL --fail -X GET "$1";
+# Get the response body for a given URL for 200 status code responses.
+curl -sL "$1"
